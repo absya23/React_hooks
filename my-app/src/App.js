@@ -1,10 +1,14 @@
-// import logo from "./logo.svg";
 import React from "react";
 import "./App.css";
-import "./App.scss";
+import ColorBox from "./components/colorBox/ColorBox";
+// import "./App.scss";
 
 function App() {
-  return <div className="App">Hello word</div>;
+  return (
+    <div className="App">
+      <ColorBox>hihi</ColorBox>
+    </div>
+  );
 }
 
 export default App;
