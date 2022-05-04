@@ -14,4 +14,12 @@ body {
   width: 100px;
   height: 100px;
   border: 1px solid #000;
+  background-color: #666;
+  position: relative;
+  z-index: -1000;
+}
+
+.ab {
+  position: absolute;
+  z-index: 1000;
 }
